@@ -1,0 +1,48 @@
+{
+  "name": "react-signup-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "set DEBUG=react-signup-backend:* & nodemon start.js",
+    "start": "node start.js",
+    "prod": "pm2 start start.js"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-regenerator": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.4.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "http-status-codes": "^1.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
+    "mongodb-js-errors": "^0.4.0",
+    "mongoose": "^5.5.10",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "passport-facebook": "^3.0.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.0"
+  }
+}
