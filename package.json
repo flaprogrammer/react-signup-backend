@@ -23,7 +23,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.3",
     "mongodb-js-errors": "^0.4.0",
-    "mongoose": "^5.5.10",
+    "mongoose": "^5.7.5",
     "morgan": "~1.9.0",
     "multer": "^1.4.1",
     "passport-facebook": "^3.0.0",
